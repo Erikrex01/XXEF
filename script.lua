@@ -2,3 +2,4 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("TITLE", "DarkTheme")
 local Tab = Window:NewTab("TabName")
 local Section = Tab:NewSection("Section Name")
+print("S")
