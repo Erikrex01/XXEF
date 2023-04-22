@@ -11,3 +11,6 @@ LP_S:NewSlider("Jump Power", "Jump Power", 500, 0, function(s) -- 500 (MaxValue)
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
     print(s)
 end)
+LP_S:NewButton("BTools", "BTools", function()
+    loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/BTools.txt"))()
+end)
